@@ -20,6 +20,7 @@ typedef void (*sighandler_t)(int);
 #define THREAD_TIMERS 1
 #define THREAD_IPC 2
 #define THREAD_SIGNAL 3
+
 static pthread_t threads[4];
 
 int running = 1;
